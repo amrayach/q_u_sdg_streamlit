@@ -1,0 +1,14 @@
+flair
+pandas
+streamlit
+huggingface_hub
+st-pages
+spacy
+en_core_web_lg @ https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.5.0/en_core_web_lg-3.5.0-py3-none-any.whl
+captum
+ipython
+numpy
+openpyxl
+streamlit-aggrid
+#streamlit-elements==0.1.*
+#plotly
