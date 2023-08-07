@@ -26,12 +26,13 @@ def init_nlp_model():
 
 @st.cache_resource
 def init_sdg_classifier_model():
-    model_path = hf_hub_download(repo_id="amay01/quality_and_usability_sgd_17_classifier_flair", filename="final-model.pt")
+    model_path = hf_hub_download(repo_id="amay01/quality_and_usability_sgd_17_classifier_flair",
+                                 filename="final-model.pt",
+                                 force_download=True)
     return TextClassifier.load(model_path)
 
 #@st.cache_resource
 #def init_sdg_keyword_dict():
-
 
 
 nlp = init_nlp_model()
