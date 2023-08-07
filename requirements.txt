@@ -10,5 +10,9 @@ ipython
 numpy
 openpyxl
 streamlit-aggrid
+streamlit_elements
+plotly
+transformers
+torch
 #streamlit-elements==0.1.*
 #plotly
