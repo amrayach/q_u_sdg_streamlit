@@ -10,7 +10,7 @@ ipython
 numpy
 openpyxl
 streamlit-aggrid
-streamlit_elements
+streamlit-elements
 plotly
 transformers
 torch
