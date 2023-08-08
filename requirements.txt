@@ -136,7 +136,7 @@ sqlitedict==2.1.0
 srsly==2.4.6
 st-pages==0.4.1
 stack-data==0.6.2
-streamlit==1.23.1
+streamlit
 streamlit-aggrid==0.3.4.post3
 streamlit-elements==0.1.0
 sympy==1.12
