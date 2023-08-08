@@ -27,7 +27,7 @@ def init_nlp_model():
 @st.cache_resource
 def init_sdg_classifier_model():
     model_path = hf_hub_download(repo_id="amay01/quality_and_usability_sgd_17_classifier_flair",
-                                 filename="final-model.pt")
+                                 filename="final-model.pt", local_dir='./')
     return TextClassifier.load(model_path)
     #return TextClassifier.load('final-model_2.pt')
 
